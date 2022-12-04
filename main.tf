@@ -1,9 +1,9 @@
-resource "aws_instance" "Demo1" {
+resource "aws_instance" "Demo12" {
   ami = "ami-062df10d14676e201"
   instance_type = "t2.micro"
   key_name = "demokey"
   tags = {
-    Name = "Demo1"
+    Name = "Demo12"
   }
  }
 provider "aws" {
